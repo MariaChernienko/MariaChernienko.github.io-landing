@@ -1,0 +1,56 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, 
+a, img, article, footer, header, nav,  section, ul, li {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  list-style: none;
+  line-height: 1;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.black-header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  font-size: 18px;
+  text-align: center;
+}
+.black-header span {
+  border-bottom: 2px solid #fff;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.white-header {
+  padding: 30px 50px;
+}
+.white-header:after {
+  content: " ";
+  clear: both;
+  display: table;
+}
+.white-header h3 {
+  display: inline-block;
+  float: left;
+}
+.white-header nav {
+  display: inline-block;
+  float: right;
+}
+.white-header nav ul li {
+  display: inline-block;
+  padding-left: 30px;
+}
+.white-header nav ul li a {
+  color: #000;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+}
