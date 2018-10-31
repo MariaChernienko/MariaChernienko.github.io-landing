@@ -1,2 +1,2 @@
-# MariaChernienko.github.io-landing
+# https://mariachernienko.github.io/simple-page/
 Landing page
