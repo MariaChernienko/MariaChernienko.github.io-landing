@@ -138,6 +138,9 @@ article {
 .article-dark__footer {
   padding-top: 300px;
 }
+.article-dark__footer img {
+  color: #fff;
+}
 h1.tight {
   width: 100px;
 }
