@@ -8,20 +8,26 @@ a, img, article, footer, header, nav,  section, ul, li {
   line-height: 1;
 }
 
-h1 {
+.text-h1 {
   font-size: 82px;
   font-weight: 700;
   line-height: 1.1;
 }
-h3 {
+.text-h3 {
   font-size: 24px;
   font-weight: 700;
 }
-h4 {
+.text-h4 {
   font-size: 18px;
   font-weight: 500;
 }
-
+.header-container {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
 .black-header {
   background-color: #000;
   color: #fff;
@@ -61,12 +67,15 @@ h4 {
   font-weight: 700;
 }
 
-article {
+
+
+.article {
   width: 70%;
   text-align: center;
   padding: 70px 0;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 100px;
 }
 .arrow-down {
   text-align: center;
@@ -145,7 +154,7 @@ h1.tight {
   width: 100px;
 }
 
-footer {
+.footer {
   text-align: center;
   padding: 30px;
 }
