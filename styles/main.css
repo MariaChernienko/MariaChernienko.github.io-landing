@@ -6,6 +6,11 @@
   list-style: none;
   line-height: 1;
 }
+.wrapper {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .text-h1 {
   font-size: 82px;
   font-weight: 700;
@@ -40,6 +45,15 @@
 }
 .white-header {
   padding: 30px 50px;
+  background-color: #fff;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.white-header:after {
+  content: " ";
+  clear: both;
+  display: table;
 }
 .white-header h3 {
   float: left;
@@ -202,7 +216,6 @@ h1.tight {
   }
   .white-header .text-h3 {
     color: #fff;
-    margin-top: -10px;
   }
   .white-header {
     background-color: #000;
