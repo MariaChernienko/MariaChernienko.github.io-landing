@@ -243,12 +243,9 @@ h1.tight {
     cursor: pointer;
     color: transparent;
     font-size: 0;
-    
     background-image: url("../img/menu.svg");
     background-repeat: no-repeat;
     background-size: contain;
-  
-  
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
